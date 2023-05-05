@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.8rem;
+    background-color: hsl(27, 66%, 92%);
+}
+main{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+main section header{
+    display: flex;
+    width: 500px;
+    height: 100px;
+    color: #FFF;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 15px;
+    justify-content: space-around;
+    background-color: hsl(10, 79%, 65%);
+}
+main section header img{
+    width: 7.4rem;
+    margin: 1rem;
+}
+main section header h1{
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+main section header p{
+    font-weight: 700;
+    font-size: 3rem;
+}
+article{
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    width: 500px;
+    height: 500px;
+}
+article h1{
+    margin-top: 20px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.days{
+    gap: 30px;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color:hsl(28, 10%, 53%);
+}
+.boxs{
+    margin: 50px;
+    margin-bottom: -40px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-around;
+}
+.box1, .box2, .box3, .box4, .box5, .box6, .box7{
+    gap: 30px;
+    width: 3rem;
+    height: 5rem;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: hsl(10, 79%, 65%);
+}
+.box1{
+    height: 5rem;
+    width: 3rem;
+}
+.box2{
+    height: 8rem;
+    width: 3rem;
+}
+.box3{
+    width: 3rem;
+    height: 14rem;
+    background-color: hsl(186, 34%, 60%);
+}
+.box4{
+    height: 10rem;
+    width: 3rem;
+}
+.box5{
+    height: 6rem;
+    width: 3rem;
+}
+.box6{
+    height: 12rem;
+    width: 3rem;
+}
+.box7{
+    height: 10rem;
+    width: 3rem;
+}
+.underline{
+    width: 400px;
+    display: flex;
+    margin: auto;
+    border: 1px solid hsl(28, 10%, 53%);
+}
+.baixo{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.month h6{
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: hsl(28, 10%, 53%) ;
+}
+.month p{
+    font-weight: bold;
+    font-size: 4rem;
+}
+.last-month{
+    text-align: right;
+}
+.last-month p{
+    color: hsl(28, 10%, 53%) ;
+}
+.last-month h6{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Soft red: hsl(10, 79%, 65%)
+- Cyan: hsl(186, 34%, 60%)
+
+### Neutral
+
+- Dark brown: hsl(25, 47%, 15%)
+- Medium brown: hsl(28, 10%, 53%)
+- Cream: hsl(27, 66%, 92%)
+- Very pale orange: hsl(33, 100%, 98%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 18px
+
+### Font
+
+- Family: [DM Sans](https://fonts.google.com/specimen/DM+Sans)
+- Weights: 400, 700 */
